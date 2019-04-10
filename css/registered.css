@@ -1,0 +1,328 @@
+.enter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    border-bottom: 1px solid #cccccc;
+}
+.enter-header .ico_list,
+.enter-header .ico_member{
+    width: 13.4375%;
+   
+}
+.enter-header .ico_member img{
+    float: right; 
+}
+.enter-header .ico_list img,
+.enter-header .ico_member img{
+    padding: 0 8px;
+    height: 24px;
+}
+.enter-header .logo{
+    widows: 73.125%;
+}
+.enter-header .logo img{
+    height: 50px;
+}
+/*headerpc*/
+.enter-header1{
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.enter-header1 .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enter-header1 .nav .top ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.enter-header1 .nav .top ul li{
+    float: left;
+}
+.enter-header1 .nav .top ul li:not(:last-child){
+    border-right: 1px solid #ccc;
+    padding: 0 15px;
+}
+.enter-header1 .nav .top ul li:last-child{
+    padding-left: 15px;
+}
+.enter-header2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.enter-header2 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.enter-header2 .header .enter span{
+    border-left: 1px solid #ccc;
+    font-size: 24px;
+    line-height: 42px;
+    padding-left: 18px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.enter-header2 .newuser{
+    width: 264px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enter-header2 .newuser .home,
+.enter-header2 .newuser .member{
+    display: flex;
+    align-items: center;
+}
+.enter-header2 .newuser .home a,
+.enter-header2 .newuser .member a{
+    margin-left: 10px;
+}
+.enter-footer{
+    background-color: rgb(245,245,245);
+    padding-top: 20px;
+}
+.enter-footer ul{
+    list-style: none;
+}
+.enter-footer ul li{
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+}
+.enter-footer ul li:nth-child(1){
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.enter-footer ul li:not(:first-child){
+    padding-left: 28px;
+}
+.enter-footer .help,
+.enter-footer .pay,
+.enter-footer .send,
+.enter-footer .after{
+    margin-left: 10px;
+    /* padding-left: 25px;
+    margin-left: -25px; */
+    font-size: 16px;
+    line-height: 35px;
+    color: #666666;
+}
+.enter-footer .ban{
+    width: 100%;
+}
+.QR{
+    display: none;
+}
+
+/*body start*/
+.enter-body{
+    background-color:rgb(245,245,245);
+    padding: 20px 0;
+}
+.enter-body .inner{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.enter-body .inner .zhuce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 14px;
+}
+.enter-body .inner .zhuce .have{
+    margin: 10px 0;
+    color: #666;
+}
+.enter-body .inner .zhuce .none{
+    display: none;
+    margin-top: -10px;
+}
+.enter-body .inner .zhuce .have a,
+.enter-body .inner .zhuce .regect a{
+    color: rgb(0, 145, 194);
+}
+.enter-body .inner .zhuce .user,
+.enter-body .inner .zhuce .password,
+.enter-body .inner .zhuce .passwordsure{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.enter-body .inner .zhuce .yanzheng input{
+    width: 38%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.enter-body .inner .zhuce .regect{
+    color: #666;
+    margin-bottom: 10px;
+}
+.enter-body .inner .zhuce button{
+    width: 90%;
+    padding: 10px 10px;
+    background: rgb(0, 145, 189);
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.enter-body .inner .zhuce .way{
+    color: #666;
+}
+/*body end*/
+/*尾部开始*/
+.enter-footer .tel{
+    /* width:120%;
+    margin-left: -10%; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+.enter-footer .tel div{
+    display: flex;
+    justify-content: center;
+}
+.enter-footer .tel .telphone{
+    font-size: 14px;
+    color: #848484;
+    line-height: 24px;
+}
+.enter-footer .tel .number{
+    font-size:26px;
+    color: #333;
+    line-height: 40px;
+}
+.enter-footer .tel .kehu a{
+    background-color: rgb(12,168,216);
+    color: white;
+    font-size: 12px;
+    padding: 4px 14px;
+    border-radius: 5px;
+}
+.enter-footer p{
+    color: #999;
+    font-size: 1.2rem;
+    padding: 6px 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+@media screen and ( min-width:512px ){
+    .container{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+    .enter-footer p{
+        line-height: 30px;
+    }
+}
+@media screen and ( min-width:712px ){
+    .container{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }  
+    .enter-body .inner{
+        width: 524px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    } 
+    /* .enter-body .user input,
+    .enter-body .password input{
+        padding: 13px 10px;
+    }
+    .enter-body .enter button{
+        padding: 10px 10px;
+    } */
+    .enter-footer p{
+        line-height: 35px;
+    }
+}
+
+@media screen and ( min-width:1024px ){
+    .container{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+    .enter-body .inner .zhuce .have{
+        margin: 20px 0;
+    }
+    .enter-body .inner .zhuce .regect{
+        margin-bottom: 20px;
+    }
+    .enter-body .inner .zhuce .user,
+    .enter-body .inner .zhuce .password,
+    .enter-body .inner .zhuce .passwordsure,
+    .enter-body .inner .zhuce .yanzheng input,
+    .enter-body .inner .zhuce button{
+        padding: 20px 20px;
+        margin-bottom: 20px;
+    }
+    .enter-footer{
+        padding-top: 70px;
+    }
+    .enter-footer .tel{
+        border: transparent;
+    }
+    .enter-footer .tel div{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .enter-footer .concat{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .enter-footer ul{
+        border-right: 1px solid #ccc;
+        margin-left: 10px
+    }
+    .enter-footer{
+        background-color:transparent;
+    }
+    .enter-footer .ban{
+        border-top: 1px solid #ccc;
+    }
+    .enter-footer p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .enter-footer .concat{
+        padding-bottom: 50px;
+    }
+}
+/* 大型端 */
+@media screen and ( min-width:1230px ){
+    .container{
+        width: 1200px;
+    }
+    .enter-footer .concat .QR{
+        display: block;
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,1065 @@
+/**/
+.Fw-header.mobile{
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+.Fw-header .nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* position: relative; */
+}
+.Fw-header .header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Fw-header.mobile .header  img{
+    width: 30.56%;
+    height: auto;
+}
+.Fw-header.mobile .header .nav{
+    width: 35.5%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Fw-header.mobile .header .nav img:not(:last-child){
+    width: 12.5%;
+}
+.Fw-header.mobile .header .nav img:nth-child(4){
+    width: 18%;
+}
+/* .Fw-header.mobile .header .logo img,
+.Fw-header.mobile .header .nav img{
+    height: 15px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+ 
+/* .Fw-header.mobile .header .logo img{
+    width: 50%;
+} */
+/* .Fw-header.mobile .header .nav img{
+    width: 10%
+} */
+.Fw-header .nav .menu{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 66px;
+    right: 0;
+    color: white;
+    background: rgba(0,0,0,.7);
+}
+.Fw-header .nav .menu ul{
+    list-style: none;
+}
+.Fw-header .nav .menu ul li{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 0 5rem;
+}
+.Fw-header.pc{
+    border-bottom: 1px solid #ccc;
+}
+.Fw-header.pc .header{
+    padding: 20px 0;
+}
+.Fw-header.pc .header .nav .tel{
+    background: url(../images/tel.png) left center no-repeat;
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(217, 97, 0);
+    padding-left: 35px;
+    margin-right: 15px;
+}
+.Fw-header.pc .header .nav img{
+    margin-right: 5px;
+}
+.Fw-header.pc .header .nav span{
+    background-color: transparent;
+    border: 1px solid rgb(236,236,236);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #666;
+    font-size: 1.2rem;
+}
+.Fw-list .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fw-list .list .liebiao ul{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 0;
+}
+.Fw-list .list .liebiao ul li{
+    float: left;
+    padding-right: 30px;
+    font-size: 1.6rem;
+    color: #666;
+}
+.Fw-list .list .liebiao ul li:first-child{
+    color: rgb(217, 97, 0);
+}
+.Fw-list .list .liebiao ul .bgc{
+    background: url(../images/nav-li-img2.png) right center no-repeat;
+    padding-right: 1.7rem;
+    
+}
+.Fw-list .list .liebiao ul .bgc:hover{
+    color:rgb(217, 97, 0);
+    background: url(../images/nav-li-img1.png) right center no-repeat;
+}
+.Fw-list .list .assist{
+    display: flex;
+    align-items: center;
+}
+.Fw-list .list .assist .img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Fw-list .list .assist .myorder{
+    background: url(../images/Orders.png) left center no-repeat;
+    padding-left: 2.2rem;
+    border-right: 1px solid rgb(236,236,236);
+    padding-right: 3.2rem;
+}
+.Fw-list .list .assist .helpcenter{
+    padding-left: 2.2rem;
+    padding-right: 3.2rem;
+    border-right: 1px solid rgb(236,236,236);
+}
+
+.Fw-list .list .assist img{
+    /* display: inline-block; */
+    padding-left: 2.2rem;
+    padding-right: 3.2rem;
+}
+.Fw-list .list .assist .number{
+    width: 15px;
+    height: 15px;
+    background: #d96100;
+    font-size: 12px;
+    font-family: Arial;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    display: block;
+    border-radius: 50%;
+    margin-left: -28px;
+    margin-top: -5px;
+}
+/*banner*/
+.Fw-banner.mobile{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.Fw-banner.mobile img{
+    width: 100%;
+}
+.Fw-banner.pc{
+    background-color: rgb(247,247,247);
+    padding: 30px 0;
+}
+.Fw-banner.pc .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Fw-banner.pc .banner .left{
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Fw-banner.pc .banner .left img{
+    display: block;
+    margin-bottom: 1rem;
+}
+.Fw-banner.pc .banner .right{
+    position: relative;
+    width: 65%;
+    height: auto;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.Fw-passage img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.Fw-passage .Fw-recommended-img a{
+    height: 350px;
+}
+.Fw-save{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.Fw-save .save{
+    color: white;
+    text-align: center;
+}
+.Fw-save  img{
+    display: inline-block;
+    width: 60%;
+    max-width: 100px;
+    border: none;
+    margin-top: -45px;
+}
+.Fw-save.mobile  p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Fw-save.pc p{
+    text-align: left;
+    font-size: 1.6rem;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: url(../images/cp-img7.png) 250px center no-repeat;
+}
+.Fw-save.pc .save:hover{
+    margin-top: -10px;
+}
+.Fw-save .save1{
+    background-color: rgb(211, 112, 37); 
+}
+.Fw-save .save2{
+    background-color: rgb(224, 175, 117); 
+}
+.Fw-save .save3{
+    background-color: rgb(137, 157, 182); 
+}
+.Fw-save .save4{
+    background-color: rgb(140, 202, 190); 
+}
+.Fw-recommended{
+    padding: 30px 0;
+}
+.commended{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Fw-recommended .right .zuo,
+.Fw-recommended .right .you{
+    width: 28px;
+    line-height: 28px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+.Fw-recommended .right .zuo{
+    margin-right: 15px;
+}
+.Fw-recommended-img{
+    position: relative;
+}
+
+.Fw-recommended-img .new{
+    width: 20%;
+    height: 1.5rem;
+    background: #d55d0b;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 0.5rem;
+    left: 3%;
+    z-index: 2;
+}
+.newrecommended{
+    display: block;
+    float: left;
+    border-left: 3px solid rgb(211, 112, 37);
+    margin-bottom: 20px;
+}
+.newrecommended span{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left:7px;
+
+}
+.Fw-recommended .newtext{
+    display: block;
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 30px 0;
+}
+.Fw-recommended .gucci{
+    display: block;
+    width: 100%;
+    max-width: 177.77777778%;
+    height: auto;
+}
+
+.Fw-advice.pc{
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+.Fw-advice.pc span{
+    display: block;
+}
+.Fw-advice.pc .advice{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.Fw-advice.pc .img2{
+    margin-left: 20px;
+}
+.Fw-advice.pc .advice .advice_passage,
+.Fw-advice.pc .advice img{
+    width: 33.3333333%;
+    height: auto;
+}
+.Fw-advice.pc .advice .advice_passage{
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.Fw-advice.pc .advice .advice_passage .sanjiao{
+    position: absolute;
+    border: 20px solid;
+    border-right-color: rgb(242, 242, 242);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    left: -40px;
+    top: 180px;
+    /* border-top: transparent;
+    border-bottom: transparent; */
+}
+.Fw-advice.pc .advice .img
+.Fw-advice.pc .advice .advice_passage span{
+    display: flex;
+}
+.Fw-advice.pc .advice .advice_passage .Midea{
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+}
+.Fw-advice.pc .advice .advice_passage .neiwai{
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 2.2rem;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.Fw-advice.pc .advice .advice_passage .price{
+    font-size: 2.2rem;
+    color: rgb(238,53,50);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Fw-advice.pc .advice .advice_passage button.buy{
+    padding: 7px 15px;
+    background-color:  rgb(238,53,50);
+    border: 1px solid rgb(238,53,50);
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+}
+.Fw-advice.pc .advice .advice_passage button.details{
+    padding: 8px 15px;
+    background-color:  transparent;
+    border: 1px solid #999;
+    border-radius: 8px;
+
+}
+.Fw-advice.mobile{
+    /* background-color: #f7f7f7; */
+    padding: 50px 0;
+    height: auto;
+}
+.Fw-advice.mobile span{
+    display: block;
+}
+.Fw-advice.mobile .advice{
+    display: flex;
+    justify-content: space-between;
+}
+.Fw-advice.mobile .advice .img{
+    width: 50%
+}
+.Fw-advice.mobile .advice img{
+    border: 1px solid rgb(242, 242, 242);
+    width: 100%;
+    height: auto;
+}
+.Fw-advice.mobile .advice .advice_passage{
+    width: 50%;
+    height: auto;
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Fw-advice.mobile .advice .advice_passage .Midea{
+    min-width: 100%;
+    font-size: 1.2rem;
+    color: #000;
+}
+.Fw-advice.mobile .advice .advice_passage .neiwai{
+    min-width: 100%;
+    font-size: 1.0rem;
+    color: #999;
+    /* margin-top: 12px;
+    margin-bottom: 20px; */
+}
+.Fw-advice.mobile .advice .advice_passage .price{
+    min-width: 100%;
+    font-size: 1.8rem;
+    color: rgb(238,53,50);
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+.Fw-advice.mobile .advice .advice_passage button{
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+.Fw-advice.mobile .advice .advice_passage button.buy{
+    background-color:  rgb(238,53,50);
+    border: 1px solid rgb(238,53,50);
+    color: white;
+    margin-right: 3px;
+}
+.Fw-advice.mobile .advice .advice_passage button.details{
+    background-color:  white;
+    border: 1px solid #999;
+}
+.Fw-hot1{
+    padding: 30px 0;
+}
+.bor{
+    border-bottom: 1px solid #ccc;
+}
+
+.Fw-hot1 img{
+    width: 100%;
+    height: auto;
+}
+.Fw-hot1 p,
+.Fw-recommended p{
+    font-size: 1rem;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; */
+}
+.Fw-hot1 .lisi,
+.Fw-recommended .lisi{
+    display: -webkit-box;
+    line-height: 5.3rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.Fw-hot1 .wanmei,
+.Fw-recommended .wanmei{
+    font-size: 1rem;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+.Fw-hot1 [class="not1"]{
+    border: none;
+}
+.Fw-hot1 p.price,
+.Fw-recommended p.price{
+    font-size: 1.8rem;
+    line-height: 5.3rem;
+    color: #ed460b;
+}
+.Fw-problem{
+    padding: 50px 0;
+}
+.Fw-problem .button{
+    font-size: 1.2rem;
+}
+.Fw-problem .problem{
+    background: rgb(137, 157, 183) url(../images/tb6.png) 95% center no-repeat;
+}
+.Fw-problem .sales{
+    background: rgb(224, 157, 117) url(../images/tb6.png) 95% center no-repeat;
+}
+.Fw-problem .notice{
+    background: rgb(140, 202, 191) url(../images/tb6.png) 95% center no-repeat;
+}
+.Fw-problem ul{
+    background-color: rgb(243, 243, 243);
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: none;
+}
+.Fw-problem ul li{
+    line-height: 2.8rem;
+    font-size: 1rem;
+    color: #666;
+}
+.Fw-problem .problem.active{
+    background: rgb(137, 157, 183) url(../images/tb5.png) 95% center no-repeat;
+}
+.Fw-problem .sales.active{
+    background: rgb(224, 157, 117) url(../images/tb5.png) 95% center no-repeat;
+}
+.Fw-problem .notice.active{
+    background: rgb(140, 202, 191) url(../images/tb5.png) 95% center no-repeat;
+}
+.Fw-problem .problem,
+.Fw-problem .sales,
+.Fw-problem .notice{
+    color: white;
+    line-height: 4.5rem;
+    padding-left: 2rem;
+    user-select: none;
+}
+.not{
+    display: none;
+}
+/* 中等屏幕 */
+.Fw-problem1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(247,247,247);
+}
+.Fw-problem1 .problem1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fw-problem1 .problem1 .tubiao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Fw-problem1 .problem1 .tubiao img{
+    border-radius: 60%;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.Fw-problem1 .problem1 .tubiao .blue{
+    background-color: rgb(137, 157, 182);
+}
+.Fw-problem1 .problem1 .tubiao .red{
+    background-color: rgb(224, 157, 117);
+}
+.Fw-problem1 .problem1 .tubiao .green{
+    background-color: rgb(140, 202, 191);
+}
+.Fw-problem1 a:hover{
+    text-decoration: underline ;
+}
+.text1 a:hover{
+    text-decoration: underline ;
+}
+.Fw-problem1 .problem1 .aboutproblem,
+.Fw-problem1 .problem1 .aboutsales,
+.Fw-problem1 .problem1 .aboutnotice{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.Fw-problem1 .problem1 .aboutsales,
+.Fw-problem1 .problem1 .aboutnotice{
+    margin-left: 30px;
+}
+.Fw-problem1 .problem1 .button{
+    font-size: 2rem; 
+    padding-bottom: 10px;   
+}
+.Fw-problem1 .problem1 ul{
+    padding: 20px 0;
+}
+.Fw-problem1 .problem1 li{
+    color: white;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    background: url(../images/cp-img6.png) right center no-repeat;
+    margin-right: 25px;
+}
+.Fw-problem1 .problem1 .aboutproblem ul{
+    background-color: rgb(137, 157, 182);
+    padding-left: 30px;
+}
+.Fw-problem1 .problem1 .aboutsales ul{
+    background-color: rgb(224, 157, 117);
+    padding-left: 30px;
+}
+.Fw-problem1 .problem1 .aboutnotice ul{
+    background-color: rgb(140, 202, 191);
+    padding-left: 30px;
+}
+.Fw-footer{
+    background-color: rgb(97, 101, 118);
+}
+.Fw-footer .footer{
+    color: white;
+    line-height: 4rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background:  url(../images/tb7.png) 95% center no-repeat;
+    user-select: none;
+}
+.Fw-footer ul{
+    display:none;
+    list-style: none;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    /*padding-bottom: 1rem; */
+}
+.Fw-footer ul li{
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+.footer-end{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+/* 大屏尾部*/
+.Fw-footer1 .tooter1{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Fw-footer1 .tooter1 .text{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Fw-footer1 .tooter1 .text .text1{
+    /* padding-right: 8rem; */
+    width: 100%;
+    padding-left: 1rem;
+}
+.Fw-footer1 .tooter1 .text ul{
+    list-style: none;
+}
+.Fw-footer1 .tooter1 .text ul li:nth-child(1){
+    color: #000;
+    font-size: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+.Fw-footer1 .tooter1 .text ul li{
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+}
+.Fw-footer1 .tooter1 .contact{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-left: 1px solid #ccc;
+}
+.Fw-footer1 .tooter1 .contact .tel{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+.Fw-footer1 .tooter1 .contact .tel div{
+    display: flex;
+    justify-content: flex-end;
+}
+.Fw-footer1 .tooter1 .contact .tel .telphone{
+    font-size: 1.4rem;
+    color: #848484;
+    line-height: 2.6rem;
+}
+.Fw-footer1 .tooter1 .contact .tel .number{
+    font-size: 2.6rem;
+    color: #333;
+    line-height: 3.1rem;
+    padding-bottom: .8rem;
+}
+.Fw-footer1 .tooter1 .contact .tel .kehu a{
+    background-color: #10337e;
+    color: white;
+    font-size: 1.2rem;
+    padding: 4px 14px;
+    border-radius: 5px;
+}
+.Fw-end1 .end{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+.Fw-end1 .end img{
+    display: none;
+}
+
+.Fw-end1 .end .aboutus ul{
+    list-style: none;
+    overflow: hidden;
+}
+.Fw-end1 .end .aboutus ul li{
+    float: left;
+    font-size: 1.2rem;
+    color: #999;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.Fw-end1 .end .aboutus ul li:not(:last-child){
+    border-right: 1px solid #999;
+}
+.Fw-end1 .end .aboutus p{
+    font-size: 1.2rem;
+    color: #999;
+    padding: 0 15px;
+}
+.Fw-end1 .end .web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.Fw-end1 .end .web img{
+    display: block;
+}
+.Fw-end1 .end .web .web1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fw-end1 .end .web .web1 p{
+    width: 50px;
+    font-size: 1.2rem;
+    color: #999;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+@media screen and (min-width:1024px){
+    .Fw-passage{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .Fw-hot1 p,
+    .Fw-recommended p{
+        font-size: 1.6rem;
+    }
+    .Fw-hot1 .wanmei,
+    .Fw-recommended .wanmei{
+        font-size: 1.6rem;
+        padding-top: 1.8rem;
+    }
+    .newrecommended span{
+        font-size: 2.2rem;
+    }
+    .Fw-recommended-img .new{
+        width: 18%;
+        height: 2.5rem;
+        background: #d55d0b;
+        color: #fff;
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        position: absolute;
+        top: 0.5rem;
+        left: 3%;
+        z-index: 2;
+    }
+    
+    .Fw-recommended .lisi{
+        display: -webkit-box;
+        line-height: 2.5rem;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+    .Fw-recommended .wanmei{
+        padding-top: 0;
+    }
+}
+@media screen and (min-width:1230px){
+    .Fw-end1 .end img{
+        display: block;
+    }
+    .Fw-end1 .end .aboutus{
+        margin-left: -60px;
+    }
+    .newrecommended span{
+        font-size: 2.5rem;
+    }
+    .Fw-recommended-img{
+        width: 290px;
+    }
+    .Fw-recommended-img a{
+        display: block;
+        overflow: hidden;
+    }
+    .Fw-recommended-img .img{
+        -moz-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition:all 0.5s linear;
+    }
+    .Fw-recommended-img .img:hover{
+        transform: scale(1.1);
+    }
+    .Fw-banner.pc .banner .left{
+        display: flex;
+        width: 35%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Fw-banner.pc .banner .left img{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .Fw-banner.pc .banner .right{
+        position: relative;
+        width: 800px;
+        height: auto;
+    }
+    .Fw-banner.pc .banner .right img{
+        height: 480px;
+    }
+    .Fw-list .list .liebiao ul .bgc{
+        
+        padding-right: 2rem;
+        margin-left: 20px;
+        
+    }
+    .Fw-advice.pc .advice .advice_passage{
+        display: flex;
+        background-color: rgb(242, 242, 242);
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 130px;
+        position: relative;
+    }
+}
+@media (min-width: 415px) and (max-width: 639px) {
+    .Fw-header.mobile .header .logo img,
+    .Fw-header.mobile .header .nav img{
+        height: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 639px){
+    .Fw-advice.mobile .advice .advice_passage{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Fw-advice.mobile .advice .advice_passage button{
+        font-size: 1.1rem;
+        padding: 5px 14px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .neiwai{
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .price{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 639px) and (max-width: 749px){
+    .Fw-advice.mobile .advice .advice_passage{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .Midea{
+        font-size: 1.6rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage button{
+        font-size: 1.2rem;
+        padding: 5px 16px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .neiwai{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage .price{
+        margin-bottom: 10px;
+    }
+    .Fw-recommended-img .new{
+        width: 20%;
+        height: 2rem;
+        background: #d55d0b;
+        color: #fff;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        position: absolute;
+        top: 0.5rem;
+        left: 3%;
+        z-index: 2;
+    }
+}
+@media (min-width: 749px) and (max-width: 848px){
+    .Fw-advice.mobile .advice .advice_passage{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .Midea{
+        font-size: 1.6rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage button{
+        font-size: 1.2rem;
+        padding: 8px 25px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .neiwai{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage .price{
+        margin-bottom: 15px;
+    }
+    .Fw-recommended-img .new{
+        width: 20%;
+        height: 2rem;
+        background: #d55d0b;
+        color: #fff;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        position: absolute;
+        top: 0.5rem;
+        left: 3%;
+        z-index: 2;
+    }
+}
+@media (min-width: 848px) and (max-width: 1024px){
+    .Fw-advice.mobile .advice .advice_passage{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .Midea{
+        font-size: 1.8rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage button{
+        font-size: 1.5rem;
+        padding: 10px 40px;
+    }
+    .Fw-advice.mobile .advice .advice_passage .neiwai{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .Fw-advice.mobile .advice .advice_passage .price{
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+    .Fw-recommended-img .new{
+        width: 20%;
+        height: 2rem;
+        background: #d55d0b;
+        color: #fff;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        position: absolute;
+        top: 0.5rem;
+        left: 3%;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 719px){
+    .Fw-header.mobile .header .logo img,
+    .Fw-header.mobile .header .nav img{
+        height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Fw-header.mobile .header .nav img{
+        width: 10%;
+    } 
+}
+@media (min-width: 720px) and (max-width: 899px){
+    .Fw-header.mobile .header .logo img,
+    .Fw-header.mobile .header .nav img{
+        height: 35px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Fw-header.mobile .header .nav img{
+        width: 12%;
+    } 
+    .Fw-header.mobile{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+}
+@media (min-width: 899px) and (max-width: 1024px){
+    .Fw-header.mobile .header .logo img,
+    .Fw-header.mobile .header .nav img{
+        height: 35px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Fw-header.mobile .header .nav img{
+        width: 10%;
+    } 
+    .Fw-header.mobile{
+        padding-top: 25px;
+        padding-bottom: 18px;
+    }
+}
